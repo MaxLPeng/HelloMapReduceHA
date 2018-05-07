@@ -10,12 +10,10 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-public class TestMR {
-	
+public class TestMR {	
  
 	final static String LOCAL_PATH						= "e:/tmp";
-	final static String LOCAL_FILE						= "/HDFSHello.txt";  
-	
+	final static String LOCAL_FILE						= "/HDFSHello.txt";	
 	//final static String FS_DEFAULTFS					= "hdfs://NameNode01:9000";
 	final static String FS_DEFAULTFS					= "hdfs://namecluster1";
 	final static String YARN_RM_HOSTNAME				= "NameNode01";
