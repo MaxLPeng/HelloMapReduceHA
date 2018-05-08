@@ -1,6 +1,6 @@
 # HelloMapReduceHA
 
-MapReduce API调用测试  
+MapReduce API调用测试  ,实现wordcount功能  
 
 1）本地运算  ，数据,结果都在本地  
 

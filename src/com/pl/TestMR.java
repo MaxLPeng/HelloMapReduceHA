@@ -12,18 +12,18 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class TestMR {	
  
-	final static String LOCAL_PATH						= "e:/tmp";
-	final static String LOCAL_FILE						= "/HDFSHello.txt";	
-	//final static String FS_DEFAULTFS					= "hdfs://NameNode01:9000";
-	final static String FS_DEFAULTFS					= "hdfs://namecluster1";
-	final static String YARN_RM_HOSTNAME				= "NameNode01";
-	final static String DFS_PATH_ROOT					= "/test";
-	final static String DFS_PATH_IN 					= DFS_PATH_ROOT + "/in";
-	final static String DFS_PATH_OUT					= DFS_PATH_ROOT + "/out";
-	final static String DFS_FULL_PATH_IN 				= FS_DEFAULTFS + DFS_PATH_ROOT + "/in";
-	final static String DFS_FULL_PATH_OUT				= FS_DEFAULTFS + DFS_PATH_ROOT + "/out";
-	final static String DFS_FILE_IN 					= "/HDFSHello.data";  
-	final static String DFS_JAR							= "HelloMR-HA.jar";
+	final static String LOCAL_PATH			= "e:/tmp";
+	final static String LOCAL_FILE			= "/HDFSHello.txt";	
+	//final static String FS_DEFAULTFS		= "hdfs://NameNode01:9000";
+	final static String FS_DEFAULTFS		= "hdfs://namecluster1";
+	final static String YARN_RM_HOSTNAME	= "NameNode01";
+	final static String DFS_PATH_ROOT		= "/test";
+	final static String DFS_PATH_IN			= DFS_PATH_ROOT + "/in";
+	final static String DFS_PATH_OUT		= DFS_PATH_ROOT + "/out";
+	final static String DFS_FULL_PATH_IN	= FS_DEFAULTFS + DFS_PATH_ROOT + "/in";
+	final static String DFS_FULL_PATH_OUT	= FS_DEFAULTFS + DFS_PATH_ROOT + "/out";
+	final static String DFS_FILE_IN			= "/HDFSHello.data";  
+	final static String DFS_JAR				= "HelloMR-HA.jar";
 	
     /**
      * 测试
